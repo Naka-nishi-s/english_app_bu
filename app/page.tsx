@@ -1,16 +1,11 @@
 "use client";
 
 export default function Home() {
-  /**
-   * 認証後、Topページに遷移
-   */
-  const navigateToTop = () => {};
-
   return (
     <main>
       <div>
-        <p>sa</p>
-        <button onClick={navigateToTop}>スタート</button>
+        <p>トップページ</p>
+        <a href="/login">ログインはこちら</a>
       </div>
     </main>
   );
