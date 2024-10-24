@@ -5,7 +5,12 @@ export default function Home() {
     <main>
       <div>
         <p>トップページ</p>
-        <a href="/login">ログインはこちら</a>
+        <div>
+          <a href="/login">ログインはこちら</a>
+        </div>
+        <div>
+          <a href="/nice">ナイスなページ</a>
+        </div>
       </div>
     </main>
   );
